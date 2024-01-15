@@ -1,0 +1,200 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int _;
+	setlocale(0, "");
+	cout << "\x1b[92mВыберите месяц года \n" << "\x1b[0m";
+	cout << "Январь - 1 \n";
+	cout << "Февраль - 2 \n";
+	cout << "Март - 3 \n";
+	cout << "Апрель - 4 \n";
+	cout << "Май - 5 \n";
+	cout << "Июнь - 6 \n";
+	cout << "Июль - 7 \n";
+	cout << "Август - 8 \n";
+	cout << "Сентябрь - 9 \n";
+	cout << "Октябрь - 10 \n";
+	cout << "Ноябрь - 11 \n";
+	cout << "Декабрь - 12 \n";
+	int month;
+	int days;
+	cin >> month;
+	switch (month)
+	{
+	case 1:
+		cout << "\x1b[93mВыбран месяц Январь \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+	    case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 29: case 30: case 31:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mЯнваря \n";
+		break;
+	case 2:
+		cout << "\x1b[93mВыбран месяц Февраль \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mФевраля \n";
+		break;
+	case 3:
+		cout << "\x1b[93mВыбран месяц Март \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30: case 31:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mМарта \n";
+		break;
+	case 4:
+		cout << "\x1b[93mВыбран месяц Апрель \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mАпреля \n";
+		break;
+	case 5:
+		cout << "\x1b[93mВыбран месяц Май \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30: case 31:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mМайя \n";
+		break;
+	case 6:
+		cout << "\x1b[93mВыбран месяц Июнь \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mИюня \n";
+		break;
+	case 7:
+		cout << "\x1b[93mВыбран месяц Июль \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30: case 31:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mИюля \n";
+		break;
+	case 8:
+		cout << "\x1b[93mВыбран месяц Август \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30: case 31:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mАвгуста \n";
+		break;
+	case 9:
+		cout << "\x1b[93mВыбран месяц Сентябрь \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mСентября \n";
+		break;
+	case 10:
+		cout << "\x1b[93mВыбран месяц Октябрь \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30: case 31:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mОктября \n";
+		break;
+	case 11:
+		cout << "\x1b[93mВыбран месяц Ноябрь \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mНоября \n";
+		break;
+	case 12:
+		cout << "\x1b[93mВыбран месяц Декабрь \n";
+		cout << "\x1b[92mВыберите день месяца \n" << "\x1b[0m";
+		cin >> days;
+		switch (days)
+		{
+			
+		case 1: case 2: case 3: case 4: case 5: case 6: case 7: case 8: case 9: case 10:
+		case 11: case 12: case 13: case 14: case 15: case 16: case 17: case 18: case 19: case 20:
+		case 21: case 22: case 23: case 24: case 25: case 26: case 27: case 28: case 30: case 31:
+		break;
+		}
+		cout << "\x1b[92mКалендарь: " << days << "\x1b[92mДекабря \n";
+		break;
+	default: "\x1b[91mНе правильно введен номер месяца!";
+		break;
+	}
+
+	return 0;
+
+
+}
